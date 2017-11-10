@@ -17,9 +17,9 @@ export class MainPage {
   }
 
   ionViewDidLoad() {
-    this.nativeAudio.preloadSimple('uniqueid1', '../.../assets/sound/peter_griffin_laugh.mp3');
+    this.nativeAudio.preloadSimple('peter', 'assets/sound/peter_griffin_laugh.mp3');
   console.log('SHOULD BE PLAYING');
-    this.nativeAudio.play('uniqueid1');
+    this.nativeAudio.play('peter');
   }
 
 }
